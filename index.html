@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>My Learning Journal</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,40 +21,68 @@
             </nav>
         </header>
         <main>
-            <div class="hero">
-                <p  class="hero-date">July 23, 2022</p>
-                <h2>My new journey as a bootcamp student</h2>
-                <p>After several months of learning in the Frontend Developer Career Path, 
-                    I've made the big jump over to the Bootcamp to get expert code reviews of 
-                    my Solo Projects projects and meet like-minded peers.
-                </p>
+            <a href="hero-article.html" class="hero-link">
+                <div class="hero">
+                    <p  class="hero-date">July 23, 2022</p>
+                    <h2>My new journey as a bootcamp student</h2>
+                    <p>After several months of learning in the Frontend Developer Career Path, 
+                        I've made the big jump over to the Bootcamp to get expert code reviews of 
+                        my Solo Projects projects and meet like-minded peers.
+                    </p>
+                </div>
+            </a>
+            <div class="blogs-container">
+                <div class="blogs b1" id="blog1">
+                    <img src="/images/article-image-03.png">
+                    <p class="blog-dates">July 23, 2022</p>
+                    <h2 class="blog-titles">Blog One</h2>
+                    <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! 
+                        After several months of learning in the Frontend Developer Career Path.</p>
+                </div>
+                <div class="blogs b2" id="blog2">
+                    <img src="images/article-image-02.png">
+                    <p class="blog-dates">July 23, 2022</p>
+                    <h2 class="blog-titles">Blog Two</h2>
+                    <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! 
+                        After several months of learning in the Frontend Developer Career Path.</p>
+                </div>
+                <div class="blogs b3" id="blog3">
+                    <img src="/images/article-image-01.png">
+                    <p class="blog-dates">July 23, 2022</p>
+                    <h2 class="blog-titles">Blog Three</h2>
+                    <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! 
+                        After several months of learning in the Frontend Developer Career Path.</p>
+                </div>
+                <div class="blogs b4 view-more" id="blog4">
+                    <img src="/images/article-image-01.png">
+                    <p class="blog-dates">July 23, 2022</p>
+                    <h2 class="blog-titles">Blog Four</h2>
+                    <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! 
+                        After several months of learning in the Frontend Developer Career Path.</p>
+                </div>
+                <div class="blogs b5 view-more" id="blog5">
+                    <img src="/images/article-image-01.png">
+                    <p class="blog-dates">July 23, 2022</p>
+                    <h2 class="blog-titles">Blog Five</h2>
+                    <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! 
+                        After several months of learning in the Frontend Developer Career Path.</p>
+                </div>
+                <div class="blogs b6 view-more" id="blog6">
+                    <img src="/images/article-image-01.png">
+                    <p class="blog-dates">July 23, 2022</p>
+                    <h2 class="blog-titles">Blog Six</h2>
+                    <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! 
+                        After several months of learning in the Frontend Developer Career Path.</p>
+                </div>
+
             </div>
-            <div class="blogs">
-                <img src="/images/article-image-03.png">
-                <p class="blog-dates">July 23, 2022</p>
-                <h2 class="blog-titles">Blog One</h2>
-                <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! 
-                    After several months of learning in the Frontend Developer Career Path.</p>
-            </div>
-            <div class="blogs">
-                <img src="images/article-image-02.png">
-                <p class="blog-dates">July 23, 2022</p>
-                <h2 class="blog-titles">Blog Two</h2>
-                <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! 
-                    After several months of learning in the Frontend Developer Career Path.</p>
-            </div>
-            <div class="blogs">
-                <img src="/images/article-image-01.png">
-                <p class="blog-dates">July 23, 2022</p>
-                <h2 class="blog-titles">Blog Three</h2>
-                <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! 
-                    After several months of learning in the Frontend Developer Career Path.</p>
-            </div>
-            <button>View More</button>
+            <button id="view-btn">View More</button>
         </main>
         <footer>
             <strong>My Learning Journal</strong>
             <p>Copyright @2025</p>
         </footer>
+        <script src="index.js" type="module"></script>
     </body>
 </html>
+

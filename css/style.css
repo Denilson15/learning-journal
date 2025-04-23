@@ -19,7 +19,8 @@ p{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 1rem;
     font-size: 0.65rem;
     padding: 0.15rem 0 0.35rem 0;
 }
@@ -41,7 +42,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+header a:hover{
     text-decoration: underline;
 }
 
@@ -66,6 +67,7 @@ h1{
     justify-content:flex-end;
     background-image: url("/images/article-image-hero.png");
     background-size: cover;
+    background-position: center center;
     padding: 1rem 1rem;
     color: white;
     height: 40vh;
@@ -112,6 +114,10 @@ img{
     margin-top: 0.45rem;
 }
 
+.view-more{
+    display: none;
+}
+
 button{
     background-color: inherit;
     color: #000000;
@@ -143,4 +149,39 @@ strong{
 footer p{
     color: #D7D7D7;
     margin: 0.15rem;
+}
+
+/* breakpoints */
+@media (min-width: 480px){
+    .blogs-container{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-areas: 
+        "b1 b1 b1 b1 b2 b2 b2 b2 b3 b3 b3 b3"
+        "b4 b4 b4 b4 b5 b5 b5 b5 b6 b6 b6 b6" ;
+    }
+
+    .b1{
+        grid-area: b1;
+    }
+
+    .b2{
+        grid-area: b2;
+    }
+
+    .b3{
+        grid-area: b3;
+    }
+
+    .b4{
+        grid-area: b4;
+    }
+
+    .b5{
+        grid-area: b5;
+    }
+
+    .b6{
+        grid-area: b6;
+    }
 }
