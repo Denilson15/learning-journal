@@ -5,10 +5,10 @@ export default defineConfig({
 		
 	],
 	root: 'html',
+	base: './',
 	build: {
 		outDir: '../dist',   
 		emptyOutDir: true,  
-	},
-	base: './'
+	}
 })
 
