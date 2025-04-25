@@ -4,7 +4,6 @@ export default defineConfig({
 	plugins: [
 		
 	],
-	root: 'html',
 	base: './',
 	build: {
 		outDir: '../dist',   
