@@ -13,6 +13,10 @@ This project demonstrates:
 - Clean and accessible typography
 - Organized layout for readability
 
+## 🌐 Live Site
+
+Check out the live version here: [https://learning-journal-1.netlify.app/](https://learning-journal-1.netlify.app/)
+
 ## 🛠️ Technologies Used
 
 - HTML5
