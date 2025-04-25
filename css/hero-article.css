@@ -194,8 +194,41 @@ footer p{
         grid-area: b6;
     }
 
-    .view-more{
-        display: inline;
+    main{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-areas: 
+        "..... intro intro intro intro intro intro intro intro intro intro ....."
+        "heroi heroi heroi heroi heroi heroi heroi heroi heroi heroi heroi heroi"
+        "..... artic artic artic artic artic artic artic artic artic artic ....."
+        "secti secti secti secti secti secti secti secti secti secti secti secti";
+    }
+
+    .main-img{
+        grid-area: heroi;
+        justify-self: center;
+        width: 100%;
+        max-width: 979px;
+        max-height: 488px;
+        object-fit: cover;
+    }
+    article{
+        grid-area: artic;
+    }
+
+    section{
+        grid-area: secti;
+    }
+
+    /* intro layout */
+    .intro{
+        grid-area: intro;
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: repeat(12, 1fr);
+        grid-template-areas: 
+        "";
+     */
     }
 
     header{
@@ -221,7 +254,7 @@ footer p{
     .hero{
         font-size: 1rem;
         font-weight: 400;
-        min-height: 40vh;
+        margin: 2rem 0 0 0;
     }
 
     .hero h2{
@@ -232,7 +265,4 @@ footer p{
         font-size: 0.75rem;
     }
 
-    button{
-        display: none;
-    }
 }
