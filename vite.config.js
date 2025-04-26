@@ -4,7 +4,7 @@ export default defineConfig({
 	plugins: [
 		
 	],
-	base: './',
+	base: '',
 	build: {
 		outDir: 'dist',   
 		emptyOutDir: true,  
