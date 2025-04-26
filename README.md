@@ -9,7 +9,7 @@ A responsive web page designed to showcase a personal learning journal, built us
 This project demonstrates:
 
 - Semantic HTML5 structure
-- Responsive design techniques using CSS Flexbox
+- Responsive design techniques using CSS Flexbox and FlexGrid
 - Clean and accessible typography
 - Organized layout for readability
 
